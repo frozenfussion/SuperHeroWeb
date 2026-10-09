@@ -1,0 +1,20 @@
+{
+  "name": "superhero-maker",
+  "version": "1.0.0",
+  "description": "Build a superhero from a few choices and forge an image with OpenAI.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
